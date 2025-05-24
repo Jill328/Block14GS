@@ -1,0 +1,36 @@
+Review Terms
+Array-is a special variable, which can hold more than one value, can contain a mix of different datat types, use nonnegative numeric indexes only, zero-indexed (the first element is at index 0, the second is at index 1 and so on)
+    const fruit = ["apple", "oranges", "mangoes"]
+ 
+ New Terms
+ Array methods- functions that can be called on an existing array which can perform a number of different operations to the array. The methods allow us to perform actions on the values in the array. Each value has a numeric position in the array known as its index.
+ Syntax - "." then the method followed by ()
+ Example- myArray.someMethod
+    myArray.forEach (() =>{})
+The Methods- The methods allow us to perform actions on the values in the array.
+    
+    .unshift()- Adds one or more elements to the beginning of the array and returns the length on the   array.
+    
+    .shift()- Removes the 1st element from the array and returns that element
+
+    .push()- Adds one more element to the end of the array and returns the length of the array
+
+    .pop()- Removes the last element from the array and returns that element
+
+    .reverse()- Reverses all array values making the first element become the last element. Returns the reversed array. 
+
+    .sort()- Sorts all array values in ascending order with the smalest value first. Retruns the sorted array.
+
+
+
+         
+Resources: https://medium.com/@sewolpe/visualizing-javascript-array-methods-7babf560f7be#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjY2MGVmM2I5Nzg0YmRmNTZlYmU4NTlmNTc3ZjdmYjJlOGMxY2VmZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDAxMDE5NDY5MTYzNjgwNDI5NjMiLCJlbWFpbCI6Imp3b29kc25vbGFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0Nzc5ODM3NCwibmFtZSI6IkppbGwgV29vZHMiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jTEtxX0VNelV0Q3RiOXN2UjdHYnZuczZWVzU0YUhCeTdHa2dNeE51blVENm5vLW1nPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkppbGwiLCJmYW1pbHlfbmFtZSI6Ildvb2RzIiwiaWF0IjoxNzQ3Nzk4Njc0LCJleHAiOjE3NDc4MDIyNzQsImp0aSI6ImY3ZmY1YzhiYjBjMDcxNWMwOWIzYmZjMTUzZTI5YmM2YTEyMDJkMzUifQ.WRzUUnpivY5bN1hfR2Xhf0btJVxBciRmRM6NeZMnD-ypVjPYXKFRTz9YCuQqRCkDosVMF-RmRBcXIGmUVp6C0RtrhHgfBGWsMkVZwWC5COC5mvl9Dr9m_W-dHWDXQ1OQy3_9PwE0NmqgzR_FaftvlJPyH8xrMweH1K9d-KfsOerAAn8LW3NmpkxHcFvrHbPTiZi8z0taBb58tBafiQs0DiP93_L3d14AG_I0rkHIMOb-a-IGerpyDRCqt4QKiCRygFhnf79OELRQm5QYF_bOBP8UGzhW0qdHULcQwU81UE-z5BTRXiYhqAW7cSB0-8L8Q0IlJWttB76XKBRvQrBTYA
+
+
+
+forEach- the only higher order array method that does not return anything. It performs an action for each item in the array
+
+items.map(...)- go through each item in the list and change it into something new
+
+.find() method, goes through the array and returns the first element that matches a given condition. The arrow function checks each item's id against the one you're looking for . It it finds a match, .find() stops and gives you that item.
+
